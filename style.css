@@ -1,0 +1,243 @@
+@import url(http://fonts.googleapis.com/css?family=Bangers);
+
+body {
+    color: black;
+    font-size: 16rem;
+    font-family: "Bangers", cursive;
+    text-align: center;
+        background-color: darkgreen;
+
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 5rem;
+    color: black;
+}
+
+.score-row {
+    font-size: 1rem;
+    width: 100%;
+}
+
+
+.wallet h2 {
+        display: inline-block;
+}
+
+.wallet p {
+        display: inline;
+        font-size: 3rem;
+/*        margin-top: -2rem;*/
+}
+
+/*
+
+/////////////////////////////////////////////////////////
+//This is the CSS for the row of cards and hold buttons//
+/////////////////////////////////////////////////////////
+
+*/
+
+.slot-row{
+    font-size: 2rem;
+    color: black;
+    font-family: "arial", sans-serif;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    display: block;
+}
+
+.card {
+    display: inline-block;
+    width: 17%;
+}
+/*  /////////////   NOTE   //////////////////////
+    change X Axis values in -81px increments.  //
+    /////////////////////////////////////////////
+*/
+.box1 {
+    background:url(images/deckofcards.gif);
+    background-position: 0px;
+    width: 82px;
+    height: 118px;
+    position: relative;
+}
+.box2 {
+    background:url(images/deckofcards.gif);
+    background-position: 0px;
+    width: 82px;
+    height: 118px;
+    position: relative;
+}
+.box3 {
+    background:url(images/deckofcards.gif);
+    background-position: 0px;
+    width: 82px;
+    height: 118px;
+    position: relative;
+}
+.box4 {
+    background:url(images/deckofcards.gif);
+    background-position: 0px;
+    width: 82px;
+    height: 118px;
+    position: relative;
+}
+.box5 {
+    background:url(images/deckofcards.gif);
+    background-position: 0px;
+    width: 82px;
+    height: 118px;
+    position: relative;
+}
+
+.cardbox {
+    height: 15rem;
+    width: 100%;
+    max-width: 82px;
+    max-height: 118px;
+    margin: auto;
+    display: block;
+}
+
+
+.holdcheck {
+    border: 1px;
+    border-radius: 50%;
+}
+
+.checkbox {
+    visibility: hidden;
+}
+
+.checkbox + label {
+    visibility: hidden;
+}
+
+/*
+
+/////////////////////////////////////////////////////////
+// This is the CSS for the row of bet and Deal buttons //
+/////////////////////////////////////////////////////////
+
+*/
+
+
+.controls {
+/*    text-align: center;*/
+/*    margin: auto;*/
+    max-width: 900px;
+    margin-top: -7rem;
+    
+}
+
+.wager-container {
+/*    display: inline;*/
+    max-width: 800px;
+    float: left;
+}
+
+/*
+.wager-container p {
+    font-size: 2rem;
+}
+*/
+
+.wager-btn {
+    width: 9rem;
+    height: 9rem;
+    margin-left: 1.5rem;
+}
+
+.wager-btn:hover {
+    transform: rotate(5deg);
+    transform-origin: 50% 50%;
+}
+
+.btn5 {
+    color: blanchedalmond;
+    font-size: 2.5rem;
+    background-color: darkred;
+    border: 15px;
+    border-color: red;
+    border-style: dashed;
+    border-radius: 50%;
+    box-shadow: -.01rem .5rem .1rem #101010;
+}
+
+.btn10 {
+    color: silver;
+    font-size: 2.5rem;
+    background-color: darkblue;
+    border: 15px;
+    border-color: darkcyan;
+    border-style: dashed;
+    border-radius: 50%;
+    box-shadow: -.01rem .5rem .1rem #101010;
+}
+
+.btn25 {
+    color: gold;
+    font-size: 2.5rem;
+    background-color: forestgreen;
+    border: 15px;
+    border-color: #001f00;
+    border-style: dashed;
+    border-radius: 50%;
+    box-shadow: -.01rem .5rem .1rem #101010;
+}
+
+
+.deal-container {
+    display: inline-block;
+    position: relative;
+}
+
+.deal {
+    color: goldenrod;
+    font-size: 5rem;
+    background-color: darkred;
+    padding: .95rem;
+    border: 1px;
+    border-color: red;
+    border-style: groove;
+    border-radius: 5;
+    box-shadow: -.01rem .9rem .1rem #101010;
+    height: 9rem;
+    position: absolute;
+    top: -5rem;
+    z-index: 5;
+}
+
+.dealdownred {
+    box-shadow: 0 0 0 red;
+    background-color: #AF0000;
+    color: yellow;
+    border-color: pink;
+}
+
+.dealtwo {
+    color: goldenrod;
+    font-size: 5rem;
+    background-color: forestgreen;
+    padding: .95rem;
+    border: 1px;
+    border-color: red;
+    border-style: groove;
+    border-radius: 5;
+    box-shadow: -.01rem .9rem .1rem #101010;
+    height: 9rem;
+    position: absolute;
+    top: -5rem;
+    z-index: 1;
+}
+
+
+
+
