@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Poker</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="normalize.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>VIDEO POKER</h1>
+        <nav></nav>
+        
+        <div class="score-row">
+            <div class="wallet">
+            <p>Your bankroll: &nbsp;$</p>
+            <p id="bankroll"></p>
+            </div>
+            
+            <div class="wallet">
+            <p>Your bet: &nbsp;$</p>
+            <p id="totalwager"></p>
+            </div>
+        </div>
+        
+        <div class="slot-row">
+        
+            <div class="card-1 card">
+                <div class="cardbox box1" id="cardbox1">
+                    
+                </div>
+                <input class="checkbox" type="checkbox" value="first_checkbox" id="checkbox1">
+                <label for="checkbox1">Hold</label>
+            </div>
+            
+            <div class="card-2 card">
+                <div class="cardbox box2" id="cardbox2">
+                </div>
+                <input class="checkbox" type="checkbox" value="second_checkbox" id="checkbox2">
+                <label for="checkbox2">Hold</label>
+            </div>
+            
+            <div class="card-3 card">
+                <div class="cardbox box3" id="cardbox3">
+                </div>
+                <input class="checkbox" type="checkbox" value="third_checkbox" id="checkbox3">
+                <label for="checkbox3">Hold</label>
+            </div>
+            
+            <div class="card-4 card">
+                <div class="cardbox box4" id="cardbox4">
+                </div>
+                <input class="checkbox" type="checkbox" value="fourth_checkbox" id="checkbox4">
+                <label for="checkbox4">Hold</label>
+            </div>
+            
+            <div class="card-5 card">
+                <div class="cardbox box5" id="cardbox5">
+                </div>
+                <input class="checkbox" type="checkbox" value="fifth_checkbox" id="checkbox5">
+                <label for="checkbox5">Hold</label>
+            </div>
+        
+        </div>
+        
+        <div class="controls">
+            
+            <div class="wager-container">
+<!--                <p>Place your bets!</p>-->
+                <button class="wager-btn btn5" id="bet5">&nbsp;$5</button>
+                <button class="wager-btn btn10" id="bet10">$10</button>
+                <button class="wager-btn btn25" id="bet25">$25</button>
+            </div>
+            
+            <div class="deal-container">
+                <button class="deal" id="dealbutton">Deal</button>
+                <button class="dealtwo" id="dealtwo">Deal</button>
+            </div>
+            
+        </div>
+        
+        
+    </div>
+
+</body>
+
+    <script src="script.js"></script>
+    
+</html>
